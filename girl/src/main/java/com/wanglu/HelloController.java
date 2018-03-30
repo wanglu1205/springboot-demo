@@ -19,7 +19,7 @@ public class HelloController {
 
     @GetMapping(value = {"/hello", "/hi"})
     public Integer say(){
-        return girlProperties.getAge()+1;
+        return girlProperties.getAge()+2;
     }
 
     @GetMapping(value = "/getGirl")
